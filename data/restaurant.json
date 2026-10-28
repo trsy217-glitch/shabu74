@@ -1,0 +1,55 @@
+{
+  "name": "샤브74",
+  "alternateName": "SHABU 74",
+  "branch": "샤브74 평거본점",
+  "slogan": "내 가족이 먹을 건강한 밥상",
+  "description": "한우 투뿔(1++)과 7가지 유기농 채소, 매장에서 직접 키우는 수경재배 스마트팜. 진주 평거동 제우스빌딩 4층의 한우 샤브샤브 전문점.",
+  "servesCuisine": ["샤브샤브", "한우샤브샤브", "한식"],
+  "priceRange": "₩₩",
+  "telephone": "1877-7464",
+  "telephoneIntl": "+82-1877-7464",
+  "address": {
+    "display": "경남 진주시 순환로 501 제우스빌딩 4층",
+    "streetAddress": "순환로 501 제우스빌딩 4층",
+    "addressLocality": "진주시",
+    "addressRegion": "경상남도",
+    "addressCountry": "KR",
+    "neighborhood": "평거동"
+  },
+  "parking": "제우스빌딩 지하주차장 무료",
+  "space": "개별룸 · 넓은 홀 · 평일 저녁 전체 대관 가능",
+  "hours": [
+    {
+      "label": "평일 (화~금)",
+      "days": ["Tuesday", "Wednesday", "Thursday", "Friday"],
+      "opens": "11:00",
+      "closes": "15:00",
+      "lastOrder": "14:00"
+    },
+    {
+      "label": "주말 · 공휴일",
+      "days": ["Saturday", "Sunday"],
+      "opens": "11:00",
+      "closes": "21:00",
+      "lastOrder": "20:00"
+    }
+  ],
+  "closedLabel": "매주 월요일 정기 휴무",
+  "eveningNote": "평일 저녁은 단체 · 대관 예약 손님만 받습니다.",
+  "links": {
+    "reservation": "/#location",
+    "order": "/menu#takeout-drinks",
+    "naverMap": "https://map.naver.com/p/search/%EC%83%A4%EB%B8%8C74%20%EC%A7%84%EC%A3%BC",
+    "kakaoMap": "https://map.kakao.com/?q=%EC%83%A4%EB%B8%8C74%20%EC%A7%84%EC%A3%BC",
+    "instagram": "https://www.instagram.com/shabu.74/",
+    "youtube": "https://www.youtube.com/results?search_query=%EC%83%A4%EB%B8%8C74"
+  },
+  "media": {
+    "heroPoster": "/images/hero-poster.jpg",
+    "heroPosterAlt": "샤브74 매장 — 스마트팜 채소가 자라는 유리 진열장 앞에서 1++ 한우 샤브샤브를 즐기는 손님",
+    "heroVideo": [
+      { "src": "/media/hero-loop.webm", "type": "video/webm" },
+      { "src": "/media/hero-loop.mp4", "type": "video/mp4" }
+    ]
+  }
+}

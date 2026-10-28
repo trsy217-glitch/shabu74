@@ -1,0 +1,198 @@
+{
+  "updatedAt": "2026-10-28",
+  "currency": "KRW",
+  "priceNote": "부가세 포함 정찰 가격제",
+  "includedNote": "모든 기본 코스에는 1++ 한우 샤브샤브와 매일 아침 수확한 7종 스마트팜 채소, 20여 종 무제한 셀프바, 신선 샐러드, 라이스페이퍼 월남쌈, 죽·볶음밥이 모두 포함되어 있습니다. 고기는 추가 시에만 별도 주문합니다.",
+  "courses": [
+    {
+      "id": "weekday-lunch",
+      "tag": "점심 특선",
+      "eyebrow": "LUNCH SPECIAL",
+      "name": "평일 점심 (성인)",
+      "schedule": "화~금 11:00 ~ 15:00 (L.O 14:00)",
+      "composition": "1++ 한우 80g + 월남쌈 세트",
+      "summary": "1++ 한우 80g + 7종 스마트팜 채소 무제한 + 20여 종 셀프바 + 월남쌈",
+      "selfBar": "무제한 이용",
+      "price": 19900,
+      "unit": "1인",
+      "featured": false,
+      "includes": [
+        { "label": "1++ 한우 정육 제공", "value": "80g (1인 기준)" },
+        { "label": "스마트팜 7종 채소", "value": "무제한 리필" },
+        { "label": "월남쌈 & 수제 셀프바", "value": "무제한 이용" }
+      ]
+    },
+    {
+      "id": "weekend",
+      "tag": "대표 메인",
+      "eyebrow": "WEEKEND & HOLIDAY",
+      "name": "주말 · 공휴일 (성인)",
+      "schedule": "토·일·공휴일 11:00 ~ 21:00 (L.O 20:00)",
+      "composition": "1++ 한우 100g + 월남쌈 세트",
+      "summary": "1++ 한우 100g + 7종 스마트팜 채소 무제한 + 20여 종 셀프바 + 월남쌈",
+      "selfBar": "무제한 이용",
+      "price": 23900,
+      "unit": "1인",
+      "featured": true,
+      "includes": [
+        { "label": "1++ 한우 정육 증량 제공", "value": "100g (1인 기준)" },
+        { "label": "스마트팜 7종 채소", "value": "무제한 리필" },
+        { "label": "프리미엄 무제한 셀프바", "value": "전 메뉴 무제한" }
+      ]
+    }
+  ],
+  "kids": [
+    {
+      "id": "child-elementary",
+      "name": "초등학생 (8~13세)",
+      "description": "월남쌈 & 스페셜 샐러드 코너 무제한",
+      "price": 13900
+    },
+    {
+      "id": "child-preschool",
+      "name": "미취학 아동 (36개월~7세)",
+      "description": "영양 아기죽, 즉석 분식, 과일 무제한",
+      "price": 7900
+    },
+    {
+      "id": "child-infant",
+      "name": "36개월 미만 영유아",
+      "description": "유아 전용 식기 & 하이체어 제공, 동반 무료",
+      "price": 0
+    }
+  ],
+  "addons": [
+    {
+      "id": "extra-hanwoo",
+      "name": "투뿔(1++) 한우 고기 추가 (100g)",
+      "description": "당일 손질 냉장 1++ 정품 한우 · 저울 정량 계량 제공",
+      "price": 7900
+    }
+  ],
+  "takeout": [
+    {
+      "id": "mealkit",
+      "tag": "밀키트 베스트",
+      "name": "샤브74 프리미엄 한우 밀키트 (2~3인분)",
+      "description": "구성: 1++ 한우 250g + 스마트팜 채소 7종 + 비법육수 팩 + 수제 소스 3종 + 칼국수면",
+      "price": 40000,
+      "image": "/images/mealkit.jpg",
+      "imageAlt": "샤브74 프리미엄 한우 밀키트 구성 — 한우 슬라이스, 진공 포장 채소, 육수 팩과 소스"
+    },
+    {
+      "id": "dakgangjeong",
+      "tag": "샤브74 닭강정",
+      "name": "수제 닭강정 단품 포장 (대)",
+      "description": "식어도 바삭한 겉바속촉 수제 닭강정 1박스 전용 포장",
+      "price": 10000
+    }
+  ],
+  "drinks": [
+    { "id": "soju", "name": "소주", "description": "참이슬 / 좋은데이 / 진로이즈백", "price": 5000 },
+    { "id": "beer", "name": "맥주", "description": "테라 / 켈리 / 카스 (병맥주)", "price": 5000 },
+    {
+      "id": "house-wine",
+      "name": "프리미엄 하우스 와인",
+      "description": "레드 (카베르네 소비뇽) / 화이트",
+      "price": 7000,
+      "priceLabel": "글라스 7,000원",
+      "subPrice": { "label": "바틀", "price": 35000 }
+    },
+    { "id": "soft-drink", "name": "무알콜 음료 & 탄산음료", "description": "콜라 / 제로콜라 / 사이다 / 무알콜 맥주", "price": 2000 }
+  ],
+  "selfBar": {
+    "summary": "20여 종 프리미엄 뷔페 구성",
+    "zones": [
+      {
+        "id": "smartfarm-veg",
+        "badge": "핵심 시그니처 ①",
+        "name": "7가지 매장 스마트팜 유기농 채소",
+        "description": "로메인, 청경채, 비타민채, 적근대, 치커리, 케일, 팽이·새송이·느타리 버섯",
+        "note": "매장 내 스마트팜에서 당일 수확하여 쓴맛 없이 아삭합니다.",
+        "image": "/images/zone-smartfarm.jpg",
+        "imageAlt": "샤브74 매장 안 수경재배 스마트팜에서 자라는 로메인·청경채·케일",
+        "featured": true
+      },
+      {
+        "id": "dakgangjeong",
+        "badge": "만족도 1위 ②",
+        "name": "수제 비법 닭강정",
+        "description": "바삭한 튀김옷과 매콤달콤 양념 & 특제 마늘간장맛. 전문점 이상의 바삭함을 셀프바에서 무제한으로 제공합니다.",
+        "note": "따뜻하게 즉석 조리 유지",
+        "image": "/images/zone-dakgangjeong.jpg",
+        "imageAlt": "샤브74 셀프바 수제 닭강정 — 땅콩과 깨를 뿌린 매콤달콤 양념",
+        "accent": true
+      },
+      {
+        "id": "wolnamssam",
+        "badge": "웰빙 인기 코너 ③",
+        "name": "컬러풀 월남쌈 코스",
+        "description": "오이, 당근, 적양배추, 파인애플, 깻잎, 비트 슬라이스, 레몬 온수 볼 & 무한 라이스페이퍼.",
+        "note": "다채로운 파이토케미컬 채소",
+        "image": "/images/zone-wolnamssam.jpg",
+        "imageAlt": "샤브74 월남쌈 코너 — 적양배추, 당근, 오이, 파인애플과 라이스페이퍼"
+      },
+      {
+        "id": "tempura",
+        "badge": "수제 튀김 코너 ④",
+        "name": "바삭 모둠 수제튀김",
+        "description": "단호박 튀김, 고구마 튀김, 김말이, 야채 튀김. 겉바속촉 즉석 튀김 제공.",
+        "note": "스위트 칠리 소스와 환상 궁합",
+        "image": "/images/zone-tempura.jpg",
+        "imageAlt": "샤브74 셀프바 모둠 수제튀김 — 단호박, 고구마, 김말이"
+      },
+      {
+        "id": "bunsik",
+        "badge": "추억의 간식 코너 ⑤",
+        "name": "즉석 분식 코스",
+        "description": "옛날 매콤 쌀떡볶이, 참기름 향 가득한 즉석 궁중잡채, 따끈한 어묵 꼬치 바.",
+        "note": "남녀노소 온가족 별미",
+        "image": "/images/zone-bunsik.jpg",
+        "imageAlt": "샤브74 셀프바 즉석 분식 — 쌀떡볶이, 어묵 꼬치, 잡채"
+      },
+      {
+        "id": "porridge",
+        "badge": "마무리 별미 ⑥",
+        "name": "영양 죽 & 볶음밥 바",
+        "description": "신선한 친환경 달걀, 매일 다진 채소, 참기름, 김가루, 고소한 영양밥.",
+        "note": "샤브샤브 국물에 끓여먹는 마무리",
+        "image": "/images/zone-porridge.jpg",
+        "imageAlt": "샤브74 죽·볶음밥 바 재료 — 달걀, 다진 채소, 김가루, 참기름"
+      },
+      {
+        "id": "dessert",
+        "badge": "디저트 라운지 ⑦",
+        "name": "디저트 & 카페 음료 존",
+        "description": "제철 생과일, 전통 수제 강정, 원두커피 머신, 시원한 전통 발효 매실차",
+        "note": "식사 후 여유로운 티타임 무료",
+        "icon": "coffee"
+      }
+    ]
+  },
+  "broths": [
+    {
+      "id": "mild",
+      "tag": "자연 채수",
+      "name": "담백 순한맛 육수",
+      "description": "황태와 무, 다시마, 표고버섯으로 우려낸 맑은 천연 채수입니다. 자극적이지 않아 1++ 한우 본연의 고소한 풍미와 채소의 단맛을 살립니다.",
+      "note": "아이들과 부모님께 가장 사랑받는 육수",
+      "icon": "soup_kitchen",
+      "tone": "primary"
+    },
+    {
+      "id": "spicy",
+      "tag": "칼칼한 깊은 맛",
+      "name": "얼큰 매운맛 육수",
+      "description": "청양고추와 샤브74 숙성 고추양념을 더해 칼칼하면서도 뒷맛이 개운한 매운맛입니다. 고기와 채소가 우러날수록 감칠맛이 깊어집니다.",
+      "note": "성인 모임·회식 자리 인기",
+      "icon": "local_fire_department",
+      "tone": "accent"
+    }
+  ],
+  "sauces": [
+    { "id": "peanut", "name": "① 고소 땅콩소스", "tag": "Nutty", "description": "진한 땅콩 풍미로 담백한 한우에 듬뿍 찍어 먹는 시그니처 소스." },
+    { "id": "chili", "name": "② 스위트 칠리소스", "tag": "Sweet Chilli", "description": "달콤매콤하여 수제 튀김과 월남쌈에 가장 잘 어울립니다." },
+    { "id": "ponzu", "name": "③ 유자 폰즈 소스", "tag": "Citrus Ponzu", "description": "유자를 넣어 상큼하고 깔끔한 감칠맛으로 입안을 개운하게 정돈합니다." },
+    { "id": "fish", "name": "④ 감칠맛 피쉬소스", "tag": "Fish Sauce", "description": "마늘과 홍고추를 다져 넣은 월남쌈 전용 소스." }
+  ]
+}
